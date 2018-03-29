@@ -11,7 +11,7 @@ function runCopy(name, cwd) {
   install().then(() => {
     console.log('Install finished')
     var pIn = path.join(cwd, './node_modules/project-template-dwj', name)
-    var pOut = path.join(cwd, './test')
+    var pOut = path.join(cwd, './')
 
     copy.sync(pIn, pOut, (stat, path, name) => {
       if (stat === 'file') {
