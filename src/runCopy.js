@@ -10,6 +10,7 @@ function runCopy(name, cwd) {
   console.log()
   install().then(() => {
     console.log('Install finished')
+    console.log(`pIn::  ${cwd}/node_modules/project-template-dwj/${name}`)
     var pIn = path.join(cwd, './node_modules/project-template-dwj', name)
     var pOut = path.join(cwd, './')
 

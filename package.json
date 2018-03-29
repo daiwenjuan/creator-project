@@ -1,6 +1,6 @@
 {
   "name": "creator-project",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -22,7 +22,7 @@
   "dependencies": {
     "copy-dir": "0.3.0",
     "cross-spawn": "6.0.5",
-    "project-template-dwj": "1.0.1",
+    "project-template-dwj": "^1.0.2",
     "yargs": "11.0.0"
   }
 }
