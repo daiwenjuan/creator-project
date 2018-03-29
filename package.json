@@ -1,6 +1,6 @@
 {
   "name": "creator-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -20,8 +20,9 @@
   },
   "homepage": "https://github.com/daiwenjuan/creator-project#readme",
   "dependencies": {
-    "copy-dir": "^0.3.0",
-    "project-template-dwj": "^1.0.1",
-    "yargs": "^11.0.0"
+    "copy-dir": "0.3.0",
+    "cross-spawn": "6.0.5",
+    "project-template-dwj": "1.0.1",
+    "yargs": "11.0.0"
   }
 }
